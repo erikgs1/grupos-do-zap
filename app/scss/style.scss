@@ -1,3 +1,21 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 *{
-    background-color: black;
+    box-sizing: border-box;
+    nav.bg-top{
+        background-color: #292f3b;
+        .navbar-brand{
+            display: inline-block;
+            padding-top: 0.3125rem;
+            padding-bottom: 0.3125rem;
+            margin-right: 1rem;
+            font-size: 1.25rem;
+            line-height: inherit;
+            white-space: nowrap;
+            .logo{
+                max-height: 42px;
+            }
+        }
+    }
+    
 }
